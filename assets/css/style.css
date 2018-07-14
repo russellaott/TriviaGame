@@ -1,0 +1,70 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900
+}
+li {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+p {
+    font-family:'Rokkitt', serif;
+}
+ .quizContainer {
+    border-radius: 6px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+.nextButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: darkblue;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+.question {
+    font-family:'Rokkitt', serif;
+    font-size: 2em;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: green;
+    text-align: center;
+}
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family:'Rokkitt', serif;
+    color: red;
+}
+.choiceList {
+    font-family: Courier, serif;
+    color: rgb(100, 24, 24);
+}
+.result {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    background-color: orange;
+    margin: auto;
+    text-align: center;
+    font-family:'Rokkitt', serif;
+}
